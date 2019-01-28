@@ -1,0 +1,422 @@
+/*
+Theme Name: CloudBees
+Author: Denisa Azap
+Description: Bootstrap Blog template converted to WordPress
+Version: 0.0.1
+Tags: bootstrap
+*/
+
+
+/* General styling */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+a{
+  color:#99a8b0;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+h1{
+  font-family: 'Lato', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0.96px;
+}
+
+h2{
+  font-family: 'Lato', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0.96px;
+}
+h3{
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.01px;
+  letter-spacing: 0.24px;
+  margin-top:30px;
+}
+p{
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.18px;
+}
+.p-section{
+  letter-spacing: 0.09px;
+}
+.text-not-quite-white{
+  color: #fefefe;
+}
+.text-grey{
+  color:#6d6b6d;
+}
+.text-blue{
+  color:#0097b5;
+}
+.orange-btn{
+  font-family: 'Lato', sans-serif;
+  margin:auto;
+  background-color: #f79c34;
+  color:white;
+  border-radius: 0;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  /* Text style for "DOWNLOAD W" */
+  letter-spacing: 0.07px;
+  padding: 12px 21px;
+}
+.orange-btn-thirdsection{
+  padding: 12px 19px;
+}
+.orange-btn-fourthdsection{
+  padding: 12px 20px;
+}
+.orange-btn:hover{
+  border-color: #f79c34;
+  background-color: white;
+  color: #f79c34;
+}
+
+/* End of General styling */
+
+/* Header styling */
+#phone{
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.24px;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #379fba;
+}
+.center {
+    vertical-align: middle;
+}
+.contact-btn{
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 31.07px;
+  text-transform: uppercase;
+  letter-spacing: 0.05px;
+  border-radius: 0px;
+  background-color: #379fba;
+  color:white;
+  border-radius: 0;
+  padding: 5px 29px;
+}
+.contact-btn:hover{
+  border-color: #379fba;
+  color: #379fba;
+  background-color: white;
+}
+.custom-logo-link{
+  display:inline-block;
+  width:100%;
+  text-align: left;
+}
+.custom-logo{
+  margin-left: auto;
+  margin-right: auto;
+}
+/* End of Header styling */
+
+/* First section syling */
+.first-section{
+  background-image: url(images/bg.png);
+}
+.first-paragraph-align{
+  margin-bottom: 20px;
+}
+.media-image-align{
+  margin-top: 20px;
+}
+.media-body-align{
+  margin-top: 30px;
+}
+
+.list{
+  font-size: 16px;
+  letter-spacing: -0.16px;
+  line-height: 16px;
+  padding-left: 18px;
+}
+.headerform{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0.1px;
+  text-align:center;
+  margin-bottom: 30px;
+}
+.containerform{
+  width: 100%;
+  padding: 25px 0px;
+}
+.white-bg{
+  background-color:white;
+}
+.overridemedia{
+  display: flex;
+}
+.centerelement{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form-input-text{
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  /* Text style for "First Name" */
+  letter-spacing: 0.07px;
+}
+.form-fiels{
+    border-radius: 0px;
+}
+.wpcf7
+{
+  width: 100%;
+  padding: 25px 0px;
+}
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="tel"],
+.wpcf7 select
+{
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  /* Text style for "First Name" */
+  letter-spacing: 0.07px;
+  display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.wpcf7 label{
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+}
+.wpcf7-submit{
+  font-family: 'Lato', sans-serif;
+  margin:auto;
+  background-color: #f79c34;
+  color:white;
+  border-radius: 0;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  /* Text style for "DOWNLOAD W" */
+  letter-spacing: 0.07px;
+  padding: 12px 21px;
+  border: 1px solid transparent;
+  width: 100%;
+}
+
+.wpcf7-submit:hover{
+  border-color: #f79c34;
+  background-color: white;
+  color: #f79c34;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+/* End of First section styling */
+
+
+/* Second section styling */
+.background-grey{
+  background-color: #f5f4f4;
+}
+/* End of Second section styling */
+
+/* Footer styling */
+.bg-footer{
+  padding: 22px 0;
+  background-color:#335161;
+  color:#99a8b0;
+}
+.footer-btn{
+  padding-left: 22px;
+  color:#99a8b0;
+}
+.logos{
+  float:right;
+  padding-left: 22px;
+}
+.copyright{
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.14px;
+  line-height: 22px;
+  vertical-align:middle;
+}
+.links{
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.14px;
+  line-height: 18px;
+  text-decoration: underline;
+}
+.horizontallist{
+  display:inline;
+  text-decoration: underline;
+}
+
+/* WP footer */
+#menu-footer-menu{
+  display:inline;
+  text-decoration: underline;
+  list-style-type:none;
+  color:#99a8b0;
+}
+.menu-item{
+  display: inline;
+  padding-right: 22px;
+  color:#99a8b0;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.14px;
+  line-height: 18px;
+  text-decoration: underline;
+}
+/* End of WP footer styling */
+/* End of Footer styling */
+
+
+@media (max-width: 922px) {
+  .copyright{
+    width: 100%;
+  }
+  .links{
+    padding-left: 0px;
+  }
+  .menu{
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .horizontallist {
+  display: list-item;
+  }
+  .custom_logo_link{
+    text-align: center;
+  }
+
+}
+
+@media (max-width:576px) {
+
+  .logoalign{
+    display: flex;
+    justify-content: center;
+    margin:0px;
+  }
+  .contactbtn{
+    margin-top:10px;
+    margin-bottom: 10px;
+    display:block;
+  }
+  .navbar-brand{
+    padding-bottom:10px;
+  }
+  .links {
+    padding-left: 0px;
+  }
+  .logos{
+    float:none;
+    padding-top:10px;
+    display:inline;
+  }
+  .orange-btn {
+    margin-bottom: 10px;
+  }
+  .copyright{
+    text-align: center;
+  }
+  .overridemedia{
+    display: block;
+  }
+  h1{
+    font-size: 30px;
+    line-height: 40px;
+  }
+  h2{
+    font-size: 25px;
+    line-height: 30px;
+  }
+  h3{
+    font-size:20px;
+    line-height: 26px;
+  }
+  p{
+    font-size:16px;
+    line-height: 22px
+  }
+  li{
+    font-size:15px;
+    line-height: 20px
+  }
+}
+
+
+/* Wysiwyg editor */
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+	max-width: 100%;
+	height: auto;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+	max-width: 100%;
+	height: auto;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	height: auto;
+}
